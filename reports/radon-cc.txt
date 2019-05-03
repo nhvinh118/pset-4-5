@@ -1,0 +1,83 @@
+src/pset_utils/luigi/target.py
+    M 56:1 BaseAtomicProviderLocalTarget.open - A
+    C 41:0 BaseAtomicProviderLocalTarget - A
+    C 16:0 suffix_preserving_atomic_file - A
+    M 27:1 suffix_preserving_atomic_file.generate_tmp_path - A
+    M 50:1 BaseAtomicProviderLocalTarget.__init__ - A
+    M 19:1 suffix_preserving_atomic_file.__init__ - A
+    M 22:1 suffix_preserving_atomic_file.__enter__ - A
+    M 75:1 BaseAtomicProviderLocalTarget.temporary_path - A
+    M 82:1 BaseAtomicProviderLocalTarget.xxtemporary_path - A
+    C 89:0 SuffixPreservingLocalTarget - A
+src/pset_utils/vio/similarity.py
+    F 3:0 cosine_similarity - A
+    F 23:0 cos_distance - A
+src/pset_utils/vio/WordEmbedding.py
+    M 58:4 WordEmbedding.embed_document - A
+    C 11:0 WordEmbedding - A
+    M 20:4 WordEmbedding.__call__ - A
+    M 12:4 WordEmbedding.__init__ - A
+    M 35:4 WordEmbedding.from_files - A
+    M 52:4 WordEmbedding.tokenize - A
+src/pset_utils/vio/hash_str.py
+    F 8:0 get_csci_salt - A
+    F 22:0 _as_bytes - A
+    F 27:0 hash_str - A
+    F 40:0 get_user_id - A
+src/pset_utils/vio/cli.py
+    F 31:0 main - A
+src/pset_utils/vio/io.py
+    F 6:0 atomic_write - A
+src/pset_utils/vio/load_data.py
+    F 50:0 load_data - B
+    F 11:0 load_words - A
+    F 30:0 load_vectors - A
+src/neural_style/transformer_net.py
+    C 79:0 UpsampleConvLayer - A
+    C 4:0 TransformerNet - A
+    C 44:0 ConvLayer - A
+    C 57:0 ResidualBlock - A
+    M 93:4 UpsampleConvLayer.forward - A
+    M 5:4 TransformerNet.__init__ - A
+    M 29:4 TransformerNet.forward - A
+    M 45:4 ConvLayer.__init__ - A
+    M 51:4 ConvLayer.forward - A
+    M 63:4 ResidualBlock.__init__ - A
+    M 71:4 ResidualBlock.forward - A
+    M 86:4 UpsampleConvLayer.__init__ - A
+src/neural_style/utils.py
+    F 5:0 load_image - A
+    F 14:0 save_image - A
+    F 21:0 gram_matrix - A
+    F 29:0 normalize_batch - A
+src/neural_style/vgg.py
+    M 8:4 Vgg16.__init__ - B
+    C 7:0 Vgg16 - A
+    M 27:4 Vgg16.forward - A
+src/neural_style/neural_style.py
+    F 31:0 train - B
+    F 122:0 stylize - B
+    F 20:0 check_paths - A
+    F 172:0 main - A
+    F 153:0 stylize_onnx_caffe2 - A
+src/pset_4/cli.py
+    F 11:0 main - A
+src/pset_4/tasks/data.py
+    C 24:0 ContentImage - A
+    C 39:0 SavedModel - A
+    C 54:0 CopyS3ModelLocally - A
+    M 76:1 CopyS3ModelLocally.run - A
+    C 93:0 CopyS3ImageLocally - A
+    M 115:1 CopyS3ImageLocally.run - A
+    M 32:1 ContentImage.output - A
+    M 47:1 SavedModel.output - A
+    M 62:1 CopyS3ModelLocally.requires - A
+    M 68:1 CopyS3ModelLocally.output - A
+    M 101:1 CopyS3ImageLocally.requires - A
+    M 107:1 CopyS3ImageLocally.output - A
+src/pset_4/tasks/stylize.py
+    C 20:0 Stylize - A
+    M 25:1 Stylize.__init__ - A
+    M 28:1 Stylize.requires - A
+    M 36:1 Stylize.output - A
+    M 42:1 Stylize.run - A
