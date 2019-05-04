@@ -1,0 +1,288 @@
+src/neural_style/transformer_net.py
+    LOC: 99
+    LLOC: 74
+    SLOC: 72
+    Comments: 4
+    Single comments: 4
+    Multi: 9
+    Blank: 14
+    - Comment Stats
+        (C % L): 4%
+        (C % S): 6%
+        (C + M % L): 13%
+src/neural_style/utils.py
+    LOC: 34
+    LLOC: 25
+    SLOC: 25
+    Comments: 1
+    Single comments: 1
+    Multi: 0
+    Blank: 8
+    - Comment Stats
+        (C % L): 3%
+        (C % S): 4%
+        (C + M % L): 3%
+src/neural_style/__main__.py
+    LOC: 14
+    LLOC: 4
+    SLOC: 3
+    Comments: 0
+    Single comments: 0
+    Multi: 7
+    Blank: 4
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 50%
+src/neural_style/vgg.py
+    LOC: 38
+    LLOC: 34
+    SLOC: 34
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 4
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+src/neural_style/neural_style.py
+    LOC: 240
+    LLOC: 159
+    SLOC: 192
+    Comments: 2
+    Single comments: 2
+    Multi: 3
+    Blank: 43
+    - Comment Stats
+        (C % L): 1%
+        (C % S): 1%
+        (C + M % L): 2%
+src/neural_style/__init__.py
+    LOC: 0
+    LLOC: 0
+    SLOC: 0
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+src/pset_4/__main__.py
+    LOC: 14
+    LLOC: 4
+    SLOC: 3
+    Comments: 1
+    Single comments: 1
+    Multi: 6
+    Blank: 4
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 33%
+        (C + M % L): 50%
+src/pset_4/cli.py
+    LOC: 30
+    LLOC: 17
+    SLOC: 18
+    Comments: 1
+    Single comments: 1
+    Multi: 4
+    Blank: 7
+    - Comment Stats
+        (C % L): 3%
+        (C % S): 6%
+        (C + M % L): 17%
+src/pset_4/__init__.py
+    LOC: 1
+    LLOC: 1
+    SLOC: 1
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+src/pset_4/tasks/data.py
+    LOC: 135
+    LLOC: 73
+    SLOC: 62
+    Comments: 18
+    Single comments: 14
+    Multi: 20
+    Blank: 39
+    - Comment Stats
+        (C % L): 13%
+        (C % S): 29%
+        (C + M % L): 28%
+src/pset_4/tasks/stylize.py
+    LOC: 57
+    LLOC: 31
+    SLOC: 31
+    Comments: 6
+    Single comments: 7
+    Multi: 6
+    Blank: 13
+    - Comment Stats
+        (C % L): 11%
+        (C % S): 19%
+        (C + M % L): 21%
+src/pset_4/tasks/__main__.py
+    LOC: 14
+    LLOC: 4
+    SLOC: 3
+    Comments: 1
+    Single comments: 1
+    Multi: 6
+    Blank: 4
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 33%
+        (C + M % L): 50%
+src/pset_4/tasks/__init__.py
+    LOC: 1
+    LLOC: 1
+    SLOC: 1
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+src/pset_utils/luigi/target.py
+    LOC: 99
+    LLOC: 63
+    SLOC: 57
+    Comments: 7
+    Single comments: 9
+    Multi: 11
+    Blank: 22
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 12%
+        (C + M % L): 18%
+src/pset_utils/luigi/__init__.py
+    LOC: 1
+    LLOC: 1
+    SLOC: 1
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+src/pset_utils/vio/similarity.py
+    LOC: 23
+    LLOC: 13
+    SLOC: 12
+    Comments: 0
+    Single comments: 0
+    Multi: 5
+    Blank: 6
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 22%
+src/pset_utils/vio/__main__.py
+    LOC: 14
+    LLOC: 4
+    SLOC: 3
+    Comments: 1
+    Single comments: 1
+    Multi: 6
+    Blank: 4
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 33%
+        (C + M % L): 50%
+src/pset_utils/vio/WordEmbedding.py
+    LOC: 81
+    LLOC: 34
+    SLOC: 29
+    Comments: 6
+    Single comments: 6
+    Multi: 21
+    Blank: 25
+    - Comment Stats
+        (C % L): 7%
+        (C % S): 21%
+        (C + M % L): 33%
+src/pset_utils/vio/hash_str.py
+    LOC: 45
+    LLOC: 20
+    SLOC: 19
+    Comments: 2
+    Single comments: 2
+    Multi: 10
+    Blank: 14
+    - Comment Stats
+        (C % L): 4%
+        (C % S): 11%
+        (C + M % L): 27%
+src/pset_utils/vio/cli.py
+    LOC: 22
+    LLOC: 5
+    SLOC: 4
+    Comments: 2
+    Single comments: 2
+    Multi: 11
+    Blank: 5
+    - Comment Stats
+        (C % L): 9%
+        (C % S): 50%
+        (C + M % L): 59%
+src/pset_utils/vio/io.py
+    LOC: 38
+    LLOC: 17
+    SLOC: 20
+    Comments: 2
+    Single comments: 2
+    Multi: 11
+    Blank: 5
+    - Comment Stats
+        (C % L): 5%
+        (C % S): 10%
+        (C + M % L): 34%
+src/pset_utils/vio/load_data.py
+    LOC: 75
+    LLOC: 42
+    SLOC: 39
+    Comments: 2
+    Single comments: 2
+    Multi: 18
+    Blank: 16
+    - Comment Stats
+        (C % L): 3%
+        (C % S): 5%
+        (C + M % L): 27%
+src/pset_utils/vio/__init__.py
+    LOC: 1
+    LLOC: 1
+    SLOC: 1
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+** Total **
+    LOC: 1076
+    LLOC: 627
+    SLOC: 630
+    Comments: 56
+    Single comments: 55
+    Multi: 154
+    Blank: 237
+    - Comment Stats
+        (C % L): 5%
+        (C % S): 9%
+        (C + M % L): 20%
