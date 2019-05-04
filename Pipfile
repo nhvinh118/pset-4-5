@@ -16,6 +16,12 @@ radon = "*"
 pytest = "*"
 tox = "*"
 flake8 = "*"
+boto = "*"
+moto = "*"
+pytest-cov = "*"
+pytest-html = "*"
+graphviz = "*"
+pytest-bdd = "*"
 
 [requires]
 python_version = "3.7"
