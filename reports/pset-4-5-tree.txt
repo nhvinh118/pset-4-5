@@ -1,0 +1,106 @@
+.
+├── appveyor.yml
+├── assets
+│   └── style.css
+├── AUTHORS.rst
+├── CHANGELOG.rst
+├── ci
+│   ├── appveyor-bootstrap.py
+│   ├── appveyor-download.py
+│   ├── appveyor-with-compiler.cmd
+│   ├── bootstrap.py
+│   └── templates
+│       └── appveyor.yml
+├── CONTRIBUTING.rst
+├── data
+│   ├── image
+│   │   ├── neuralluigi.jpg
+│   │   ├── neuralneighborhood.jpg
+│   │   ├── origluigi.jpg
+│   │   └── orineighborhood.jpg
+│   └── model
+│       └── rain_princess.pth
+├── docs
+│   ├── authors.rst
+│   ├── changelog.rst
+│   ├── conf.py
+│   ├── contributing.rst
+│   ├── index.rst
+│   ├── installation.rst
+│   ├── readme.rst
+│   ├── reference
+│   │   ├── index.rst
+│   │   └── pset_4.rst
+│   ├── requirements.txt
+│   ├── spelling_wordlist.txt
+│   └── usage.rst
+├── LICENSE
+├── MANIFEST.in
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── README.rst
+├── reports
+│   ├── assets
+│   │   └── style.css
+│   ├── classes_transformer_net.png
+│   ├── Jenkins 01 Dashboard from 2019-05-05 10-23-29.png
+│   ├── Jenkins 02 workspace from 2019-05-04 20-53-38.png
+│   ├── Jenkins config 01 from 2019-05-05 10-12-46.png
+│   ├── Jenkins config 02 from 2019-05-05 10-13-20.png
+│   ├── Jenkins config 03 from 2019-05-05 10-14-09.png
+│   ├── Jenkins project 01 from 2019-05-05 10-16-50.png
+│   ├── Jenkins project 02 from 2019-05-05 10-17-41.png
+│   ├── Jenkins project 03 Build12_output
+│   ├── Jenkins project 04 Nose from 2019-05-05 10-08-28.png
+│   ├── pset-4-5-tree.txt
+│   ├── pylint-neural_style.txt
+│   ├── pylint-pset_4.txt
+│   ├── pytes-bdd from 2019-05-04 19-10-35.png
+│   ├── pytest_pset45.html
+│   ├── radon-cc.txt
+│   ├── radon-mi.txt
+│   └── radon-raw.txt
+├── setup.cfg
+├── setup.py
+├── src
+│   ├── neural_style
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   ├── neural_style.py
+│   │   ├── transformer_net.py
+│   │   ├── utils.py
+│   │   └── vgg.py
+│   ├── pset_4
+│   │   ├── cli.py
+│   │   ├── cli.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── __main__.py
+│   │   └── tasks
+│   │       ├── data.py
+│   │       ├── __init__.py
+│   │       ├── __main__.py
+│   │       └── stylize.py
+│   └── pset_utils
+│       ├── luigi
+│       │   ├── __init__.py
+│       │   └── target.py
+│       └── vio
+│           ├── cli.py
+│           ├── hash_str.py
+│           ├── __init__.py
+│           ├── io.py
+│           ├── load_data.py
+│           ├── __main__.py
+│           ├── similarity.py
+│           └── WordEmbedding.py
+├── tests
+│   ├── features
+│   │   └── pset_4.feature
+│   ├── test_pset_4.py
+│   └── test_steps
+│       └── pset_4_Stylize.py
+└── tox.ini
+
+20 directories, 83 files

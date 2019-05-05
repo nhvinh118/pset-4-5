@@ -1,0 +1,110 @@
+Console Output
+
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/pset-4-5
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+Cloning the remote Git repository
+Cloning repository git://github.com/nhvinh118/pset-4-5.git
+ > git init /var/lib/jenkins/workspace/pset-4-5 # timeout=10
+Fetching upstream changes from git://github.com/nhvinh118/pset-4-5.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress git://github.com/nhvinh118/pset-4-5.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git://github.com/nhvinh118/pset-4-5.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git://github.com/nhvinh118/pset-4-5.git # timeout=10
+Fetching upstream changes from git://github.com/nhvinh118/pset-4-5.git
+ > git fetch --tags --force --progress git://github.com/nhvinh118/pset-4-5.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cc02f9f6f4bd4a6a3ba9783dc2cdefe30e8d70da (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cc02f9f6f4bd4a6a3ba9783dc2cdefe30e8d70da
+Commit message: "Completing unit test - added versioned files"
+ > git rev-list --no-walk cc02f9f6f4bd4a6a3ba9783dc2cdefe30e8d70da # timeout=10
+[pset-4-5] $ /bin/sh -xe /tmp/jenkins15775024494044968135.sh
++ PYENV_HOME=/var/lib/jenkins/workspace/pset-4-5/.pyenv/
++ [ -d /var/lib/jenkins/workspace/pset-4-5/.pyenv/ ]
++ virtualenv --no-site-packages /var/lib/jenkins/workspace/pset-4-5/.pyenv/
+New python executable in /var/lib/jenkins/workspace/pset-4-5/.pyenv/bin/python2
+Also creating executable in /var/lib/jenkins/workspace/pset-4-5/.pyenv/bin/python
+Installing setuptools, pkg_resources, pip, wheel...done.
+Running virtualenv with interpreter /usr/bin/python2
++ . /var/lib/jenkins/workspace/pset-4-5/.pyenv//bin/activate
++ deactivate nondestructive
++ unset -f pydoc
++ [ -z  ]
++ [ -z  ]
++ [ -n  ]
++ [ -n  ]
++ [ -z  ]
++ unset VIRTUAL_ENV
++ [ ! nondestructive = nondestructive ]
++ VIRTUAL_ENV=/var/lib/jenkins/workspace/pset-4-5/.pyenv
++ export VIRTUAL_ENV
++ _OLD_VIRTUAL_PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ PATH=/var/lib/jenkins/workspace/pset-4-5/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ export PATH
++ [ -z  ]
++ [ -z  ]
++ _OLD_VIRTUAL_PS1=$ 
++ [ x != x ]
++ basename /var/lib/jenkins/workspace/pset-4-5/.pyenv
++ PS1=(.pyenv) $ 
++ export PS1
++ alias pydoc
++ [ -n  ]
++ [ -n  ]
++ pip3 install --quiet nosexcover
++ pip3 install --quiet pylint
++ pip3 install --quiet /var/lib/jenkins/workspace/pset-4-5/
++ /var/lib/jenkins/.local/bin/nosetests --with-xcoverage --with-xunit
+E
+======================================================================
+ERROR: Failure: ModuleNotFoundError (No module named 'boto3')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/.local/lib/python3.6/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/var/lib/jenkins/.local/lib/python3.6/site-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/var/lib/jenkins/.local/lib/python3.6/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/var/lib/jenkins/.local/lib/python3.6/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/lib/python3.6/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/lib/jenkins/workspace/pset-4-5/tests/test_pset_4.py", line 12, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+
+Name                       Stmts   Miss Branch BrPart     Cover   Missing
+-------------------------------------------------------------------------
+neural_style/__init__.py       0      0      0      0   100.00%
+pset_4/__init__.py             1      0      0      0   100.00%
+pset_4/tasks/__init__.py       1      0      0      0   100.00%
+-------------------------------------------------------------------------
+TOTAL                          2      0      0      0   100.00%
+----------------------------------------------------------------------
+Ran 1 test in 0.023s
+
+FAILED (errors=1)
+Build step 'Execute shell' marked build as failure
+[Cobertura] Publishing Cobertura coverage report...
+
+Publishing Coverage report....
+No reports were found
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/lib/jenkins/workspace/pset-4-5/reports to /var/lib/jenkins/jobs/pset-4-5/htmlreports/HTML_20Report
+Recording test results
+Finished: FAILURE
+
