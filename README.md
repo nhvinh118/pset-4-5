@@ -2,6 +2,8 @@
 
 So you are happy with your midterm test and you have finished (as usual) your problem set ("pset") weeks ahead of time. You fell in love with your achievement in the pset (and the mastery of new skills: Luigi,  Pytorch, rendering the picture of your pre-school, etc.).  You are now wondering what to do next with your free time. You are in luck!!! This pset will give you the chance to re-live all the above happy memory, while letting you indulge in your number one past time: TESTING. This exercise will give you the opportunities to refresh your knowledge of testing by focusing on Python and its test ecosystem including pytest, mock, tox and more. 
 
+Instructor: Hoang Vinh Nguyen nguyen_h_vinh@yahoo.com>
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
